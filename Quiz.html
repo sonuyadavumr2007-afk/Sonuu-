@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAEE Quiz</title>
+<style>
+body{
+font-family:Arial;
+background:#f5f5f5;
+padding:20px;
+}
+.box{
+background:#fff;
+padding:20px;
+border-radius:10px;
+max-width:500px;
+margin:auto;
+box-shadow:0 0 10px #ccc;
+}
+button{
+padding:10px 20px;
+margin-top:10px;
+}
+</style>
+</head>
+<body>
+
+<div class="box">
+<h2>MAEE Quiz</h2>
+
+<p>1. वाहन की बैटरी का सामान्य वोल्टेज कितना होता है?</p>
+
+<input type="radio" name="q1" value="A"> 6V<br>
+<input type="radio" name="q1" value="B"> 12V<br>
+<input type="radio" name="q1" value="C"> 24V<br><br>
+
+<button onclick="check()">Submit</button>
+
+<h3 id="result"></h3>
+</div>
+
+<script>
+function check(){
+let ans=document.querySelector('input[name="q1"]:checked');
+if(ans && ans.value=="B"){
+document.getElementById("result").innerHTML="✅ सही उत्तर! आपका स्कोर: 1/1";
+}else{
+document.getElementById("result").innerHTML="❌ गलत उत्तर! सही उत्तर: 12V";
+}
+}
+</script>
+
+</body>
+</html>

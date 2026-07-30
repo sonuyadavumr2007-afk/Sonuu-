@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MAEE MCQ</title>
+
+<style>
+body{
+font-family:Arial,sans-serif;
+background:#f0f8ff;
+margin:0;
+padding:20px;
+}
+
+h1{
+text-align:center;
+color:#0066cc;
+}
+
+.box{
+background:white;
+padding:15px;
+margin:15px 0;
+border-radius:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.2);
+}
+
+.answer{
+color:green;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<h1>MAEE Important MCQ</h1>
+
+<div class="box">
+<p><b>1. वाहन की बैटरी का सामान्य वोल्टेज कितना होता है?</b></p>
+A. 6V<br>
+B. 12V<br>
+C. 24V<br>
+D. 48V<br><br>
+<span class="answer">उत्तर: B. 12V</span>
+</div>
+
+<div class="box">
+<p><b>2. अल्टरनेटर का कार्य क्या है?</b></p>
+A. इंजन ठंडा करना<br>
+B. बैटरी चार्ज करना<br>
+C. ब्रेक लगाना<br>
+D. हॉर्न बजाना<br><br>
+<span class="answer">उत्तर: B. बैटरी चार्ज करना</span>
+</div>
+
+<div class="box">
+<p><b>3. स्टार्टर मोटर का कार्य क्या है?</b></p>
+A. इंजन स्टार्ट करना<br>
+B. लाइट जलाना<br>
+C. बैटरी चार्ज करना<br>
+D. सेंसर चलाना<br><br>
+<span class="answer">उत्तर: A. इंजन स्टार्ट करना</span>
+</div>
+
+<div class="box">
+<p><b>4. ओम का नियम किससे संबंधित है?</b></p>
+A. वोल्टेज, करंट और प्रतिरोध<br>
+B. इंजन ऑयल<br>
+C. टायर प्रेशर<br>
+D. ब्रेक सिस्टम<br><br>
+<span class="answer">उत्तर: A. वोल्टेज, करंट और प्रतिरोध</span>
+</div>
+
+<div class="box">
+<p><b>5. फ्यूज का मुख्य कार्य क्या है?</b></p>
+A. बैटरी चार्ज करना<br>
+B. अधिक करंट से सर्किट की सुरक्षा करना<br>
+C. इंजन स्टार्ट करना<br>
+D. हॉर्न बजाना<br><br>
+<span class="answer">उत्तर: B. अधिक करंट से सर्किट की सुरक्षा करना</span>
+</div>
+
+</body>
+</html>
